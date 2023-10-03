@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videoclubs [
+<!ELEMENT videoclubs (videoclub*)>
+<!ELEMENT videoclub (peliculas, nombre, direccion, telefono)>
+<!ELEMENT peliculas (pelicula)>
+<!ATTLIST videoclub
+    nombre ID #REQUIRED
+    direccion CDATA #IMPLIED
+    telefono CDATA >
+<!ATTLIST pelicula
+    titulo NMTOKENS #REQUIRED
+    actor NMTOEKSN REQUIRED>
+
+
+]>
+
+<videoclubs>
+    <videoclub nombre="Blockbuster" direccion="Lucena" telefono="618749871">
+        <pelicula titulo="daw woj" actor=""/>
+    </videoclub>
+    <videoclub nombre="">
+
+    </videoclub>
+</videoclubs>
