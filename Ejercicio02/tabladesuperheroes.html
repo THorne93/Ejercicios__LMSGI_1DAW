@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        table {
+            text-align: left;
+            background-color: aliceblue;
+            font-family: cursive;
+        }
+        .image {
+            height: 80px;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+            padding: 5px;
+
+       
+        }
+        table, td, th {
+            border-collapse: collapse;
+            border: 2px;
+            border-style: solid;
+            border-color: beige;
+        }
+        .image:hover {
+            height: 1000px;
+            transition-duration: 1500ms;
+            rotate: 360deg;
+            filter: invert();
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla de superhéroes de DC</h1>
+    <h2>Superhéroes de DC</h2>
+    <table style="width: 100%;">
+        <tr>
+            <th>Superhéroe</th>
+            <th style="width:40%;">Poderes</th>
+            <th>Imagen</th>
+            <th>Biografía</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Batman</td>
+            <td>Inteligencia, habilidades de detective, habilidades marciales</td>
+            <td rowspan="2"><img class="image" src="img/68b52a365474f1b4dedff810f56df52f41a0e365r1-960-1280v2_uhq.jpg" alt=""></td>
+            <td rowspan="2"><a  target="_blank" href="https://en.wikipedia.org/wiki/Batman">Más sobre Batman</a></td>
+        </tr>
+        <tr>
+            <td>Alias: El Caballero Oscuro</td>
+        </tr>
+        <tr>
+            <td>Superman</td>
+            <td>Vuelo, super fuerza, visión de rayos X</td>
+            <td><img class="image"  src="img/supermna.jpg" alt=""></td>
+            <td><a target="_blank" href="https://en.wikipedia.org/wiki/Superman">Más sobre Superman</a></td>
+        </tr>
+        <tr>
+            <td>Wonder Woman</td>
+            <td>Fuerza sobrehumana, habilidades de lucha, lazos de verdad</td>
+            <td><img class="image"  src="img/640px-Lynda_Carter_Wonder_Woman.JPG" alt=""></td>
+            <td><a target="_blank" href="https://en.wikipedia.org/wiki/Wonder_Woman">Más sobre Wonder Woman</a></td>
+        </tr>
+        <tr>
+            <td rowspan="2">Flash</td>
+            <td>Velocidad sobrehumana, curvatura de tiempo</td>
+            <td rowspan="2"><img class="image"  src="img/el-heroe-de-la-ilustracion-de-la-velocidad-del-flash-que-ejecuta-editorial-2h1d1yp.jpg" alt=""></td>
+            <td rowspan="2"><a target="_blank" href="https://en.wikipedia.org/wiki/Flash_(DC_Comics_character)">Más sobre Flash</a></td>
+        </tr>
+        <tr>
+            <td>Miembro de la La Liga de la Justicia</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
